@@ -1,0 +1,95 @@
+.tag-container {
+  align-self: center;
+}
+
+.tag-spans {
+  padding: 5px 15px;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.tag-del-btn {
+  margin-left: 5px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cust-info-header {
+  padding: 10px 0;
+  color: #fff;
+  background: #3f4b6e;
+  text-align: center;
+}
+.cust-info-header > span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.cust-info-container {
+  padding: 30px;
+}
+.cust-info-key {
+  margin-bottom: 0;
+}
+.cust-info-val {
+  font-size: 18px;
+  font-weight: 500;
+}
+.temp-btn-div > Button {
+  color: #fff;
+  border-color: #fff;
+}
+.temp-btn-div > Button:disabled {
+  color: #fff;
+}
+.temp-div {
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.temp-div:hover .temp-name {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.temp-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  padding: 05px;
+  text-align: center;
+  transition: padding 0.5s;
+}
+.temp-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.selectedTemp {
+  border: 3px solid red;
+}
+.gift-search-input {
+  position: relative;
+  margin: 0;
+}
+
+.gift-search-input > input {
+  border: 1px solid #5d92f4;
+}
+
+.gift-search-icon {
+  position: absolute;
+  right: 10px;
+  top: 09px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.gift-search-icon > i {
+  font-size: 20px;
+}
+
